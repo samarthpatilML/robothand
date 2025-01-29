@@ -66,9 +66,9 @@ while cap.isOpened():
             
             # Determine hand gesture (open or closed)
             if is_hand_open(hand_landmarks.landmark):
-                gesture = "Hand Open"
+                gesture = " Open"
             else:
-                gesture = "Hand Closed"
+                gesture = "Closed"
 
             # Count the number of fingers
             finger_count = count_fingers(hand_landmarks.landmark)
